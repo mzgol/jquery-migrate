@@ -1,6 +1,6 @@
 "use strict";
 
-console.log( "Running Node.js smoke tests..." );
+console.log( "Running Node.js smoke tests... MGOL TEST" );
 
 const assert = require( "node:assert/strict" );
 const { JSDOM } = require( "jsdom" );
@@ -20,4 +20,4 @@ assert( /^jQuery/.test( $.expando ),
 assert( typeof $.migrateVersion === "string" && $.migrateVersion.length > 0,
 	"jQuery.migrateVersion was not detected, the jQuery Migrate bootstrap process has failed" );
 
-console.log( "Node.js smoke tests passed." );
+console.log( "Node.js smoke tests passed. MGOL TEST" );
