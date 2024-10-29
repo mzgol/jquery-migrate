@@ -235,4 +235,5 @@ if ( jQueryVersionSince( "4.0.0" ) ) {
 		"jQuery.fn.sort() is deprecated and removed; convert to an array before sorting" );
 	migrateWarnProp( jQuery.fn, "splice", splice, "splice",
 		"jQuery.fn.splice() is deprecated and removed; use .slice or .not with .eq" );
+
 }
